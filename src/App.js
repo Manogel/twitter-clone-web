@@ -1,12 +1,12 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import Banner from './components/Banner';
-import TopBar from './components/TopBar';
-import Profile from './components/Profile';
-import Timeline from './components/Timeline';
-import Widgets from './components/Widgets';
-import { WrapperContent } from './styles'
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import TopBar from "./components/TopBar";
+import Profile from "./components/Profile";
+import Timeline from "./components/Timeline";
+import Widgets from "./components/Widgets";
+import { WrapperContent } from "./styles";
 
 function App() {
   return (
@@ -14,12 +14,12 @@ function App() {
       <Header />
       <Banner />
       <TopBar />
-      <WrapperContent>
+      <WrapperContent className="content-margin">
         <Profile />
         <Timeline />
         <Widgets />
       </WrapperContent>
-   </>
+    </>
   );
 }
 

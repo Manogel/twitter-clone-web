@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-input, button {
+input,
+button {
   outline: 0;
   border: 0;
 }
@@ -17,7 +18,7 @@ input, button {
 
 body {
   background: #e6dcf0;
-  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
